@@ -9,7 +9,7 @@
     <title>Website name</title>
   </head>
   <body>
-    <h1>Welcome to the website!</h1>
+    <h1>Welcome to the web</h1>
     <p class="first">
       
     </p>
@@ -22,8 +22,20 @@
       <h2>Type something in this box?</h2>
       
 
-      <input type="text" placeholder="well" />
-      <button>OK!</button>
+      <input id = "userInput" type="text" placeholder="well" />
+      <button onclick = "myFunction()">OK!</button>
+      <h1 id = "message">  </h1>
+
+
+      <script>
+        function myFunction()
+        {
+          let userInput = document.querySelector("#userInput");
+          let message = document.querySelector("#message");
+
+          message.innerHTML = "Welcome to my webpage "+ userInput.value;
+        }
+      </script>
     </form>
   </body>
 </html>
