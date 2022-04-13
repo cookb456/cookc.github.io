@@ -6,10 +6,10 @@
 
     <link href="style.css" rel="stylesheet" />
 
-    <title>Website name</title>
+    <title>ThE WeBsItE</title>
   </head>
   <body>
-    <h1>Welcome to the web</h1>
+    <h1>Welcome to the Mess</h1>
     <p class="first">
       
     </p>
@@ -22,8 +22,8 @@
       <h2>Type something in this box?</h2>
       
 
-      <input id = "userInput" type="text" placeholder="well" />
-      <button onclick = "myFunction()">OK!</button>
+      <input id = "userInput" type="text" placeholder="well?" />
+      <button onclick = "myFunction()">Enter</button>
       <h1 id = "message">  </h1>
 
 
@@ -32,8 +32,12 @@
         {
           let userInput = document.querySelector("#userInput");
           let message = document.querySelector("#message");
-
+          
           message.innerHTML = "Welcome to my webpage "+ userInput.value;
+          
+
+          
+          
         }
       </script>
     </form>
