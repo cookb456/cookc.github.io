@@ -5,10 +5,10 @@
 }
 
 body {
-  background-color: yellow;
+  background-color: rgb(255, 247, 201);
   font-family: Arial;
   font-size: 20px;
-  padding: 75px;
+  padding: 50px;
 }
 
 h1 {
@@ -30,7 +30,7 @@ p {
 }
 
 #your-name {
-  background-color: orange;
+  background-color: rgb(255, 220, 105);
   border: 5px solid #444;
   width: 400px;
   padding: 25px;
